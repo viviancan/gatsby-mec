@@ -11,9 +11,16 @@ const Navbar = () => (
       <div className="container">
         <div className="navbar-brand">
           <a className="navbar-item">
-            <img src={mecLogo} alt="Logo-1" style={{height: '50px'}} />
+            <img src={mecLogo} alt="Logo-1" style={{ height: "50px" }} />
           </a>
-          <span className="navbar-burger burger" data-target="navbarMenuHeroA">
+          <span
+            className="navbar-burger burger"
+            data-target="navbarMenuHeroA"
+            onClick={() => {
+              let menu = document.querySelector(".navbar-menu");
+              menu.classList.toggle("is-active");
+            }}
+          >
             <span />
             <span />
             <span />
