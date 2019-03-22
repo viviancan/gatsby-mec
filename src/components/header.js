@@ -1,11 +1,13 @@
 import React from "react";
-import { FaGithub } from "react-icons/fa";
+// import { FaGithub } from "react-icons/fa";
+import { Link } from "gatsby"
 
 import "./style.scss";
-
-// import gatsbyLogo from '../images/gatsby-icon.png';
-// import bulmaLogo from '../images/bulma-logo.png';
 import Navbar from "./navbar";
+
+// const ScrollToLink = () => (
+//   <Link to="/#about">Scroll To My Cool Header</Link>
+// )
 
 const Header = ({ siteTitle }) => (
   <section className="hero is-fullheight-with-navbar">
@@ -28,6 +30,11 @@ const Header = ({ siteTitle }) => (
               <p className="subtitle has-text-white is-size-3">
                 We specialize in sustainable building processes.
               </p>
+              <div className="has-text-centered">
+                <Link className="button is-outlined has-text-white is-transparent" to="/#about">LEARN MORE</Link>
+
+              </div>
+
             </div>
           </div>
         </article>

@@ -7,6 +7,11 @@ import Midsection from "./midsection";
 import Aboutsection from "./aboutsection";
 import Footer from "./footer";
 
+if (typeof window !== "undefined") {
+  // eslint-disable-next-line global-require
+  require("smooth-scroll")('a[href*="#"]')
+}
+
 const Layout = ({ children }) => (
   <div>
     <Helmet />

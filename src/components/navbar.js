@@ -2,7 +2,7 @@ import React from "react";
 import { FaGithub } from "react-icons/fa";
 
 import "./style.scss";
-import mecLogo from "../images/mec-logo.png";
+import mecLogo from "../images/logo-white.svg";
 import bulmaLogo from "../images/bulma-logo.png";
 
 const Navbar = () => (
@@ -11,7 +11,7 @@ const Navbar = () => (
       <div className="container">
         <div className="navbar-brand">
           <a className="navbar-item">
-            <img src={mecLogo} alt="Logo-1" />
+            <img src={mecLogo} alt="Logo-1" style={{height: '50px'}} />
           </a>
           <span className="navbar-burger burger" data-target="navbarMenuHeroA">
             <span />

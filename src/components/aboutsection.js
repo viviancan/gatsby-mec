@@ -5,7 +5,7 @@ import wall from "../images/wall.jpg";
 
 const Aboutsection = () => (
   <div>
-    <section className="section is-5rem-paddding">
+    <section className="section is-5rem-paddding" id="about">
       <div className="container">
         <div className="columns is-multiline">
           <div className="column is-two-fifths">
