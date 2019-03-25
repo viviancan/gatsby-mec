@@ -11,6 +11,7 @@ import {
 import "./style.scss";
 import Emoji from "./emoji";
 import wall from "../images/wall.jpg";
+import watertruck from "../images/water-truck.jpg";
 
 const Midsection = () => (
 	<div>

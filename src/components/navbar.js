@@ -1,5 +1,7 @@
 import React from "react";
+import { Link } from "gatsby"
 import { FaGithub } from "react-icons/fa";
+
 
 import "./style.scss";
 import mecLogo from "../images/logo-white.svg";
@@ -11,7 +13,7 @@ const Navbar = () => (
       <div className="container">
         <div className="navbar-brand">
           <a className="navbar-item">
-            <img src={mecLogo} alt="Logo-1" style={{ height: "50px" }} />
+            <img src={mecLogo} alt="Logo-1" style={{ height: "60px" }} />
           </a>
           <span
             className="navbar-burger burger"
@@ -31,6 +33,8 @@ const Navbar = () => (
             <a className="navbar-item is-active">Home</a>
             <a className="navbar-item">Examples</a>
             <a className="navbar-item">Documentation</a>
+            <Link to="/about">About</Link>
+
           </div>
         </div>
       </div>

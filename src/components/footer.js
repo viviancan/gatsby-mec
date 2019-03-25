@@ -2,7 +2,6 @@ import React from "react";
 import { FaInstagram } from "react-icons/fa";
 import { StaticQuery, graphql } from "gatsby";
 import "./style.scss";
-import Emoji from "./emoji";
 
 const Footer = () => (
   <StaticQuery
@@ -19,7 +18,7 @@ const Footer = () => (
       console.log(data) || (
         <footer className="footer center has-background-light">
           <div className="container">
-            <div className="columns has-text-white">
+            <div className="columns has-text-white has-text-centered">
               <div className="column">
                 <p>
                   303 Queen Anne Ct. <br /> San Antonio, TX 78209
