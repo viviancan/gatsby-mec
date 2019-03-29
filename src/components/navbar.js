@@ -30,10 +30,24 @@ const Navbar = () => (
         </div>
         <div id="navbarMenuHeroA" className="navbar-menu">
           <div className="navbar-end">
-            <a className="navbar-item is-active">Home</a>
+            <a className="navbar-item" href="/">Home</a>
             <a className="navbar-item">Examples</a>
             <a className="navbar-item">Documentation</a>
-            <Link to="/about">About</Link>
+            <a className="navbar-item" href="/about">About</a>
+
+            <div class="navbar-item has-dropdown is-hoverable">
+        <a class="navbar-link" href="https://bulma.io/documentation/overview/start/">
+          Docs
+        </a>
+        <div class="navbar-dropdown is-boxed">
+          <a class="navbar-item" href="https://bulma.io/documentation/overview/start/">
+            Overview
+          </a>
+         
+        </div>
+        </div>
+     
+
 
           </div>
         </div>

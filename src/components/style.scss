@@ -33,6 +33,16 @@
   }
 }
 
+.site {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.site-content {
+  flex-grow: 1;
+}
+
 .is-5rem-paddding {
   padding: 5rem 1.5rem;
 }

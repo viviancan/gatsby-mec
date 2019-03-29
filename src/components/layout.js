@@ -6,6 +6,7 @@ import Header from "./header";
 import Midsection from "./midsection";
 import Aboutsection from "./aboutsection";
 import Footer from "./footer";
+import Navbar from "./navbar"
 
 if (typeof window !== "undefined") {
   // eslint-disable-next-line global-require
@@ -15,12 +16,10 @@ if (typeof window !== "undefined") {
 const Layout = ({ children }) => (
   <div>
     <Helmet />
-    <Header />
-    <Aboutsection />
-    <Midsection />
-    <Aboutsection />
-
-    <Footer />
+    <div className="site">
+      <div className="site-content">{children}</div>
+      <Footer />
+    </div>
   </div>
 );
 
