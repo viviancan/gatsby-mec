@@ -16,6 +16,7 @@ if (typeof window !== "undefined") {
 const Layout = ({ children }) => (
   <div>
     <Helmet />
+    <Navbar></Navbar>
     <div className="site">
       <div className="site-content">{children}</div>
       <Footer />

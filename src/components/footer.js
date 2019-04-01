@@ -16,22 +16,22 @@ const Footer = () => (
     `}
     render={data =>
       console.log(data) || (
-        <footer className="footer center has-background-light">
+        <footer className="footer center">
           <div className="container">
-            <div className="columns has-text-white has-text-centered">
+            <div className="columns has-text-centered">
               <div className="column">
                 <p>
                   303 Queen Anne Ct. <br /> San Antonio, TX 78209
                 </p>
               </div>
               <div className="column">
-                <p>O: 210-389-8214</p>
+                <p>Office: 210-389-8214</p>
                 <p>info@modernearth-tx.com</p>
               </div>
               <div className="column">
                 <span className="icon">
                   <a href={data.site.siteMetadata.instagram}>
-                    <FaInstagram size="fa-2x" color="white" />
+                    <FaInstagram size="fa-2x" color="black" />
                   </a>
                 </span>
               </div>

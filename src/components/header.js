@@ -11,7 +11,7 @@ import Navbar from "./navbar";
 
 const Header = ({ siteTitle }) => (
   <section className="hero is-fullheight-with-navbar">
-    <Navbar />
+    {/* <Navbar /> */}
     <div className="hero-body">
       <div className="container center">
         <article className="media">

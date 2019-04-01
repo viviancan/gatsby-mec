@@ -9,7 +9,7 @@ import bulmaLogo from "../images/bulma-logo.png";
 
 const Navbar = () => (
   <div className="hero-head">
-    <nav className="navbar is-transparent">
+    <nav className="navbar">
       <div className="container">
         <div className="navbar-brand">
           <a className="navbar-item">
@@ -28,25 +28,25 @@ const Navbar = () => (
             <span />
           </span>
         </div>
-        <div id="navbarMenuHeroA" className="navbar-menu">
+        <div id="navbarMenuHeroA" className="navbar-menu is-uppercase is-family-primary">
           <div className="navbar-end">
             <a className="navbar-item" href="/">Home</a>
-            <a className="navbar-item">Examples</a>
-            <a className="navbar-item">Documentation</a>
-            <a className="navbar-item" href="/about">About</a>
 
-            <div class="navbar-item has-dropdown is-hoverable">
-        <a class="navbar-link" href="https://bulma.io/documentation/overview/start/">
-          Docs
-        </a>
-        <div class="navbar-dropdown is-boxed">
-          <a class="navbar-item" href="https://bulma.io/documentation/overview/start/">
-            Overview
-          </a>
-         
-        </div>
-        </div>
+            <a className="navbar-item" href="/rammed-earth">Rammed Earth</a>
+
+            <div className="navbar-item has-dropdown is-hoverable">
+              <a className="navbar-link">
+                Soil Stabilization
+              </a>
+              <div className="navbar-dropdown">
+                <a className="navbar-item">
+                  Overview
+                </a>
+              </div>
+            </div>
      
+                 
+            <a className="navbar-item" href="/about">About</a>
 
 
           </div>

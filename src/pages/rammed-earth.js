@@ -5,7 +5,7 @@ import Midsection from '../components/midsection'
 
 const AboutPage = () => 
     <Layout>
-        <h1>about page</h1>
+        <h1>Rammed Earth</h1>
         <Midsection></Midsection> 
     </Layout>
 

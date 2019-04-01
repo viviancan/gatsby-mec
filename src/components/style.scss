@@ -19,7 +19,9 @@
   background-color: none;
 }
 .footer {
-  background-image: url("../images/prism.png");
+  // background-image: url("../images/prism.png");
+  background-color: #eee1d7;
+  color: black;
 
   display: flex;
   padding: 1.5rem 1.5rem;
@@ -60,7 +62,7 @@
 
 .hero.is-fullheight-with-navbar {
   //   min-height: 50vh;
-  min-height: 100vh;
+  // min-height: 100vh;
 }
 
 .has-img-shadow {
@@ -70,9 +72,22 @@
   border-bottom: none;
   cursor: pointer;
 }
+.navbar{
+  background-color: #4f3827
+}
+.navbar-dropdown {
+  background-color: #4f3827
+}
+// .navbar-dropdown {
+//   background-color: #80624c
+// }
 
+.navbar-item:hover{
+  background-color: none;
+}
 .hero .navbar {
-  background-color: rgba(122, 122, 122, 0.3);
+  // background-color: rgba(122, 122, 122, 0.3);
+  // background-color: red
 }
 .hero,
 .cus-hero {
@@ -114,6 +129,12 @@
     text-align: center !important;
 
   }
+}
+@include from($tablet) {
+  .desktop-logo{
+    padding-top: 30px
+  }
+
 }
 
 /*Vertical Sliding*/
